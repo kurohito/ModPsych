@@ -1,0 +1,23 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_PSYCH_DIAGNOSES">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+			<Name></Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			<!-- ================================================== Clinic ================================================== -->
+
+			<GameDBLocalizedString>	<LocID>DIA_BIPOLAR_MANIA</LocID>								<Text>Bioplar Disorder Type I - Mania</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_BIPOLAR_MANIA_DESCRIPTION</LocID>					<Text>Mania is a facet of type I bipolar disorder in which the mood state is abnormally heightened and accompanied by hyperactivity and a reduced need for sleep.</Text>	</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>DIA_BIPOLAR_DEPRESSION</LocID>								<Text>Bioplar Disorder Type I - Depression</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_BIPOLAR_DEPRESSION_DESCRIPTION</LocID>					<Text>People experiencing bipolar disorder can have depressive episodes featuring low mood, feelings of hopelessness, extreme sadness and lack of interest and pleasure in things.</Text>	</GameDBLocalizedString>
+		
+		</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

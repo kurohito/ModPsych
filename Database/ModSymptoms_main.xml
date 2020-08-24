@@ -1,0 +1,44 @@
+<Database>
+
+    <GameDBSymptom ID="SYM_ANHEDONIA">
+        <DescriptionLocID>SYM_ANHEDONIA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_MENTAL_HEALTH_EVALUATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_PSYCHOTHERAPY</TreatmentRef>
+            <TreatmentRef>TRT_MOOD_STABILIZERS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <IconIndex>1301</IconIndex>
+        <CustomIconBigAssetRef>ASSET_PSYCH_ICON_SM1</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_SM1_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_PRESSUREDSPEECH">             
+        <DescriptionLocID>SYM_PRESSUREDSPEECH_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef> 
+        </Examinations>
+         <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        <CustomIconBigAssetRef>ASSET_PSYCH_ICON_S8</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_S8_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+
+</Database>

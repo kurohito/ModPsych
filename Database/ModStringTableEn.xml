@@ -1,0 +1,19 @@
+<Database>
+    <GameDBStringTable ID="ADDON_PSYCH">
+    
+    <LanguageCode>en</LanguageCode>
+    <LanguageNameLocalized>English</LanguageNameLocalized>
+		
+	<Contributors>
+    <Name>Violet Unicorn</Name>
+    </Contributors>
+		
+	<LocalizedStrings>
+		
+	<GameDBLocalizedString>      <LocID>ADDON_MOD_PSYCH</LocID>                       <Text>Psych Dept</Text>  </GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	
+	</GameDBStringTable>
+
+</Database>

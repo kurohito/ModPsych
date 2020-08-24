@@ -1,0 +1,26 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_PSYCH_SKILLS">
+        
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name></Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            
+		<!-- Departments -->
+			
+			<GameDBLocalizedString>	<LocID>DPT_PSYCH_DEPARTMENT</LocID>						<Text>Psych Dept</Text>	</GameDBLocalizedString>
+			
+		<!--Skills-->
+			
+			<GameDBLocalizedString>	<LocID>SKILL_DOC_SPEC_GENERAL_PSYCH</LocID>				<Text>Clinical Psychologist</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SKILL_DOC_SPEC_GENERAL_PSYCH_DESCRIPTION</LocID>	<Text>Clinical Psychology gives access to specialized procedures for detecting, diagnosing and treating various forms of mental health conditions at the Psych Department.</Text>	</GameDBLocalizedString>
+			
+		</LocalizedStrings>
+		
+		</GameDBStringTable>
+
+</Database>

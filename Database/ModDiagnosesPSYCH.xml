@@ -1,0 +1,141 @@
+﻿<Database>
+
+	<!-- BIPOLAR - MANIA -->
+    <GameDBMedicalCondition ID="DIA_BIPOLAR_MANIA">
+        <AbbreviationLocID>DIA_BIPOLAR_MANIA_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_COMMON</OccurrenceRef>
+        <Symptoms>	<!-- 7 -->
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>15</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_AGGRESSION</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DISTRACTIBILITY</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>40</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_GRANDIOSITY</GameDBSymptomRef>
+            </GameDBSymptomRules>			
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>20</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_PRESSUREDSPEECH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>15</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_IMPULSIVE</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+        </Symptoms>
+
+        <Examinations>
+        <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        <ExaminationRef>EXM_MENTAL_HEALTH_EVALUATION</ExaminationRef>
+        <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+        <!--<ExaminationRef>EXM_NEUROLOGICAL_TESTING</ExaminationRef>-->
+        <ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>     
+        </Examinations>
+
+        <Treatments>
+        <TreatmentRef>TRT_MOOD_STABILIZERS</TreatmentRef>
+        <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+        <TreatmentRef>TRT_PSYCHOTHERAPY</TreatmentRef>
+        <!--<TreatmentRef>TRT_ANTIPSYCHOTICS</TreatmentRef>-->
+        </Treatments>
+
+        <IconIndex>1425</IconIndex>
+		<CustomIconBigAssetRef>ASSET_PSYCH_ICON_DIAG1</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_DIAG1_SMALL</CustomIconSmallAssetRef>
+        <DepartmentRef>DPT_PSYCH_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>340</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+            <Tag>clinic</Tag>
+        </Tags>
+    </GameDBMedicalCondition>
+
+    <!-- BIPOLAR - DEPRESSION -->
+    <GameDBMedicalCondition ID="DIA_BIPOLAR_DEPRESSION">
+        <AbbreviationLocID>DIA_BIPOLAR_DEPRESSION_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_COMMON</OccurrenceRef>
+        <Symptoms> <!-- 8 -->
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HYPERSOMNIA</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>75</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_ANHEDONIA</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>66</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FATIGUE</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>66</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_POORCONCENTRATION</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>66</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_PSYCHOMOTORRETARDATION</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>66</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DECREASEDAPETITE</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>15</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_INCREASEDAPETITE</GameDBSymptomRef> 
+            </GameDBSymptomRules>
+			<GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>10</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SUICIDALIDEATION</GameDBSymptomRef>
+            </GameDBSymptomRules>			
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_MENTAL_HEALTH_EVALUATION</ExaminationRef>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+            <!--<ExaminationRef>EXM_NEUROLOGICAL_TESTING</ExaminationRef>-->
+            <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_EVALUATION</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>     
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_MOOD_STABILIZERS</TreatmentRef>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+            <TreatmentRef>TRT_PSYCHOTHERAPY</TreatmentRef>
+            <TreatmentRef>TRT_METHLPHENIDATE</TreatmentRef>
+            <TreatmentRef>TRT_STOMACHICS</TreatmentRef>
+		</Treatments>
+
+        <IconIndex>1079</IconIndex>
+		<CustomIconBigAssetRef>ASSET_PSYCH_ICON_DIAG2</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_DIAG2_SMALL</CustomIconSmallAssetRef>
+        <DepartmentRef>DPT_PSYCH_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>340</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+            <Tag>clinic</Tag>
+        </Tags>
+    </GameDBMedicalCondition>
+
+
+</Database>

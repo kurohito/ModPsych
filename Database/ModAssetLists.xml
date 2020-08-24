@@ -1,0 +1,117 @@
+<Database>
+
+<!-- ================================================== Decals ================================================== -->
+
+	<!-- Psych Department Decals -->
+    <GameDBAsset ID="ASSET_TEX_PSYCH_DECALS">   					<Type>TEXTURE_OBJECTS</Type>   				  <File>MOD_ROOT/mod_decals_2048_atlas_psych.png</File> </GameDBAsset>
+
+
+<!-- ================================================== Skills ================================================== -->
+
+	<!-- Psych Skill -->
+    <GameDBAsset ID="ASSET_PSYCH_ICON_SK">							<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_skill_icon_sk.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_SK_DARK">						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_dept_icon_sk_dark.png</File> </GameDBAsset>
+
+	
+<!-- ================================================== Department ================================================== -->
+
+	<!-- Psych Department -->
+	<GameDBAsset ID="ASSET_PSYCH_DPT_ICON_00"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_dept_icon_00.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_DPT_ICON_01"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_dept_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_DPT_ICON_02"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_dept_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_DPT_ICON_03"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_dept_icon_03.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_DPT_ICON_04"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_dept_icon_04.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_DPT_ICON_05"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_dept_icon_05.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_DPT_ICON_06"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_dept_icon_06.png</File> </GameDBAsset>
+	
+<!-- ================================================== Diagnostics ================================================== -->
+
+	<!-- Bipolar - Mania -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_DIAG1"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_diag_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_DIAG1_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_diag_icon_01_small.png</File> </GameDBAsset>
+
+	<!-- Bipolar - Depression -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_DIAG2"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_diag_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_DIAG2_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_diag_icon_02_small.png</File> </GameDBAsset>
+	
+
+
+<!-- ================================================== Examinations ================================================== -->
+
+	<!-- Mental Health Evaluation -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_EXAM1"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_exam_icon_01.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_PSYCH_ICON_EXAM1_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_exam_icon_01_small.png</File> </GameDBAsset>
+	
+<!-- ================================================== Symptoms ================================================== -->
+
+	<!-- Aggression  -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S1"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S1_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_01_small.png</File> </GameDBAsset>
+
+	<!-- Decreased Apetite  -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S2"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S2_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_02_small.png</File> </GameDBAsset>
+
+	<!-- Distractibility  -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S3"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_03.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S3_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_03_small.png</File> </GameDBAsset>
+
+	<!-- Grandiosity  -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S4"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_04.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S4_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_04_small.png</File> </GameDBAsset>
+
+	<!-- Impulsive  -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S5"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_05.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S5_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_05_small.png</File> </GameDBAsset>
+
+	<!-- Increased Apetite  -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S6"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_06.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S6_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_06_small.png</File> </GameDBAsset>
+
+	<!-- Poor Concentration -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S7"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_07.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S7_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_07_small.png</File> </GameDBAsset>
+
+	<!-- Pressured Speech -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S8"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_08.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S8_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_08_small.png</File> </GameDBAsset>
+
+	<!-- Psychomotor Retardation -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S9"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_09.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S9_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_09_small.png</File> </GameDBAsset>
+
+	<!-- Suicidal Ideation  -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S10"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_10.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_S10_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_s_icon_10_small.png</File> </GameDBAsset>
+	
+
+<!-- ================================================== Symptoms Main ================================================== -->
+
+	<!-- Adhedonia  -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_SM1"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_SM1_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_01_small.png</File> </GameDBAsset>
+
+	<!-- Hypersomnia  -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_SM2"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_SM2_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_02_small.png</File> </GameDBAsset>
+
+<!-- ================================================== Treatments ================================================== -->
+
+	<!-- Mood Stabilizers  -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_TR1"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_tr_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_TR1_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_tr_icon_01_small.png</File> </GameDBAsset>
+
+	<!-- Antipsychotics  
+	<GameDBAsset ID="ASSET_PSYCH_ICON_TR2"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_tr_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_TR2_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_tr_icon_02_small.png</File> </GameDBAsset>-->
+
+	<!--  Methlphenidate -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_TR3"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_tr_icon_03.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_TR3_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_tr_icon_03_small.png</File> </GameDBAsset>
+
+	<!-- Psychotherapy  -->
+	<GameDBAsset ID="ASSET_PSYCH_ICON_TR4"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_tr_icon_04.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_PSYCH_ICON_TR4_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_tr_icon_04_small.png</File> </GameDBAsset>
+
+
+</Database>

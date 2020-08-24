@@ -1,0 +1,68 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_PSYCH_SYMPTOMS">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+			<Name></Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			<!-- ================================================== BIPOLAR - MANIA ================================================== -->	
+
+			<GameDBLocalizedString>	<LocID>SYM_AGGRESSION-</LocID>							<Text>Aggression</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_AGGRESSION_DESCRIPTION</LocID>				<Text>Aggression is behavior causing or threatening physical harm towards others. It includes hitting, kicking, biting, using weapons, and breaking possessions.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>SYM_DISTRACTIBILITY</LocID>						<Text>Distractibility</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_DISTRACTIBILITY_DESCRIPTION</LocID>			<Text>Inability, or difficulty, in maintaining attention and resisting interfering stimuli.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>SYM_GRANDIOSITY</LocID>							<Text>Grandiosity</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_GRANDIOSITY_DESCRIPTION</LocID>				<Text>An unrealistic sense of superiority, characterized by a sustained view of one's self as better than other people, which is expressed by disdainfully viewing them as inferior; and refers to a sense of personal uniqueness, the belief that few other people have anything in common with oneself, and that one can only be understood by a few, very special people.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>SYM_PRESSUREDSPEECH</LocID>						<Text>Pressured Speech</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_PRESSUREDSPEECH_DESCRIPTION</LocID>			<Text>Speech is fast, erratic, irrelevant, or too tangential for the listener to understand.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>SYM_IMPULSIVE</LocID>							<Text>Impulsive Behaviour</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_IMPULSIVE_DESCRIPTION</LocID>				<Text>Frequently involved in high risk behavior such as reckless driving, excessive spending and excessive sexual activity.</Text>
+			</GameDBLocalizedString>			
+
+
+			<!-- ================================================== BIPOLAR - DEPRESSION ================================================== -->
+
+
+			<GameDBLocalizedString>	<LocID>SYM_HYPERSOMNIA</LocID>							<Text>Hypersomnia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_HYPERSOMNIA_DESCRIPTION</LocID>				<Text>Excessive daytime sleepiness or excessive time spent sleeping.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>SYM_ANHEDONIA</LocID>							<Text>Anhedonia</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_ANHEDONIA_DESCRIPTION</LocID>				<Text>Inability to experience pleasure from activities usually found enjoyable.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>SYM_POORCONCENTRATION</LocID>					<Text>Poor Concentration</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_POORCONCENTRATION_DESCRIPTION</LocID>		<Text>Difficulty staying awake, intrusive thoughts or concerns or inattention.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>SYM_PSYCHOMOTORRETARDATION</LocID>				<Text>Psychomotor Retardation</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_PSYCHOMOTORRETARDATION_DESCRIPTION</LocID>	<Text>A slowing-down of thought and a reduction of physical movements.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>SYM_DECREASEDAPETITE</LocID>						<Text>Decreased Apetite </Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_DECREASEDAPETITE_DESCRIPTION</LocID>			<Text>Reduced desire to eat.</Text>	</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>SYM_INCREASEDAPETITE</LocID>						<Text>Increased Apetite</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_INCREASEDAPETITE_DESCRIPTION</LocID>			<Text>Increased desire to eat.</Text>	</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>SYM_SUICIDALIDEATION</LocID>						<Text>Suicidal Ideation</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SYM_SUICIDALIDEATION_DESCRIPTION</LocID>			<Text>Thinking about or planning suicide.</Text>	
+			</GameDBLocalizedString>
+
+	
+		</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

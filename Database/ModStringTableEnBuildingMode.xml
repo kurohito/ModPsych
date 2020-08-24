@@ -1,0 +1,20 @@
+<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_PSYCH_BUILDING_MODE">
+
+        <LanguageCode>en</LanguageCode>
+		<LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name></Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+		<GameDBLocalizedString>	<LocID>ROOM_TYPE_PSYCH_OFFICE</LocID>							<Text>Psych office</Text>	</GameDBLocalizedString>
+		<GameDBLocalizedString>	<LocID>ROOM_TYPE_PSYCH_OFFICE_DESCRIPTION</LocID>				<Text>Psych office is common diagnostic outpatient office. \n\nMin. Staff requirements: \n1x Doctor</Text>	</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>	<LocID>OBJECT_DECAL_PSYCH_DPT</LocID>								<Text>Psych Dept</Text>	</GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

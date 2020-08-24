@@ -1,0 +1,168 @@
+<Database>
+
+    <!-- ================================================== NEW ================================================== -->
+
+	<GameDBTreatment ID="TRT_MOOD_STABILIZERS"> 
+        <AbbreviationLocID>TRT_MOOD_STABILIZERS_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_PSYCH</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_PSYCH</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>observation</Tag>
+                <Tag>icu</Tag>  
+                <Tag>psych_office</Tag> 
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <Cost>100</Cost>
+        <IconIndex>1883</IconIndex>
+         <CustomIconBigAssetRef>ASSET_PSYCH_ICON_TR1</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_TR1_SMALL</CustomIconSmallAssetRef>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<GameDBTreatment ID="TRT_PSYCHOTHERAPY"> 		
+        <AbbreviationLocID>TRT_PSYCHOTHERAPY_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_PSYCH</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_PSYCH</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
+
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <AnimationSetupLying>
+                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+            </AnimationSetupLying>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+            <DetachedDepartmentRef>DPT_PSYCH_DEPARTMENT</DetachedDepartmentRef>
+        </Procedure>
+        <TreatmentType>PROCEDURE</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1953</IconIndex>
+        <CustomIconBigAssetRef>ASSET_PSYCH_ICON_TR4</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_TR4_SMALL</CustomIconSmallAssetRef>
+        <DurationHours>1</DurationHours>
+    </GameDBTreatment>
+
+	<!--<GameDBTreatment ID="TRT_ANTIPSYCHOTICS"> 		
+        <AbbreviationLocID>TRT_ANTIPSYCHOTICS_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_PSYCH</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_PSYCH</SkillRef>
+            </RequiredDoctorQualificationList>
+
+                       <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>observation</Tag>
+                <Tag>icu</Tag>  
+                <Tag>psych_office</Tag> 
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <Cost>100</Cost>
+        <IconIndex>1883</IconIndex>
+         <CustomIconBigAssetRef>ASSET_PSYCH_ICON_TR2</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_TR2_SMALL</CustomIconSmallAssetRef>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>-->
+
+    <GameDBTreatment ID="TRT_METHLPHENIDATE">
+        <AbbreviationLocID>TRT_METHLPHENIDATE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_PSYCH</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_PSYCH</SkillRef>
+            </RequiredDoctorQualificationList>
+
+                        <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>observation</Tag>
+                <Tag>icu</Tag>  
+                <Tag>psych_office</Tag> 
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <Cost>100</Cost>
+        <IconIndex>1883</IconIndex>
+         <CustomIconBigAssetRef>ASSET_PSYCH_ICON_TR3</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_TR3_SMALL</CustomIconSmallAssetRef>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+</Database>

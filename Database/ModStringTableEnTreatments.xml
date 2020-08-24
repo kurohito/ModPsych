@@ -1,0 +1,33 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_PSYCH_TREATMENTS">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+			<Name></Name>
+        </Contributors>
+
+        <LocalizedStrings>
+			
+			<!-- ================================================== TREATMENTS ================================================== -->
+			
+			<GameDBLocalizedString>	<LocID>TRT_MOOD_STABILIZERS</LocID>								<Text>Mood Stabilizers</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_MOOD_STABILIZERS_DESCRIPTION</LocID>					<Text>A psychiatric medication used to treat mood disorders characterized by intense and sustained mood shifts, such as bipolar disorder and the bipolar type of schizoaffective disorder.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_PSYCHOTHERAPY</LocID>								<Text>Psychotherapy</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_PSYCHOTHERAPY_DESCRIPTION</LocID>					<Text>Psychotherapy, or talk therapy, is a way to help people with a broad variety of mental illnesses and emotional difficulties.</Text>	
+			</GameDBLocalizedString>
+
+			<!--<GameDBLocalizedString>	<LocID>TRT_ANTIPSYCHOTICS</LocID>								<Text>Antipsychotics</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_ANTIPSYCHOTICS_DESCRIPTION</LocID>					<Text>A psychiatric medication primarily used to manage psychosis, principally in schizophrenia but also in a range of other psychotic disorders. They are also the mainstay together with mood stabilizers in the treatment of bipolar disorder.</Text>	
+			</GameDBLocalizedString>-->
+
+			<GameDBLocalizedString>	<LocID>TRT_METHLPHENIDATE</LocID>								<Text>Methlphenidate</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_METHLPHENIDATE_DESCRIPTION</LocID>					<Text>Methlphenidate is a stimulant medication used to treat attention deficit hyperactivity disorder and narcolepsy.</Text>	
+			</GameDBLocalizedString>
+			
+			</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

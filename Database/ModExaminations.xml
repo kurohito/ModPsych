@@ -1,0 +1,44 @@
+<Database>
+
+    <!-- ================================================== PSYCH DEPT EXAMINATIONS ================================================== -->
+
+
+    <GameDBExamination ID="EXM_MENTAL_HEALTH_EVALUATION">
+        <AbbreviationLocID>EXM_MENTAL_HEALTH_EVALUATION_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+				<SkillRef>SKILL_DOC_SPEC_GENERAL_PSYCH</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            
+            <RequiredRoomTags>
+                <Tag>psych_office</Tag> 
+                <Tag>receipt</Tag>
+                <Tag>examinations_no_equipment</Tag>
+            </RequiredRoomTags>
+            
+            <ProcedureScript>ProcedureScriptExaminationGeneral</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_look_in</AnimationNameIn>
+                <AnimationNameIdle>stand_look_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_look_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <DressLevel>FULL</DressLevel>
+            <Biohazard>false</Biohazard>
+            <Priority>20</Priority>
+        </Procedure>
+        <ExaminationType>EXAMINATION</ExaminationType>
+        <Cost>50</Cost>
+        <IconIndex>1715</IconIndex>
+        <CustomIconBigAssetRef>ASSET_PSYCH_ICON_EXAM1</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_EXAM1_SMALL</CustomIconSmallAssetRef>
+        <DurationHours>0</DurationHours>
+    </GameDBExamination>
+
+</Database>

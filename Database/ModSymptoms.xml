@@ -1,0 +1,223 @@
+<Database>
+
+
+    <GameDBSymptom ID="SYM_POORCONCENTRATION">						
+        <DescriptionLocID>SYM_POORCONCENTRATION_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_MENTAL_HEALTH_EVALUATION</ExaminationRef>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <!--<ExaminationRef>EXM_NEUROLOGICAL_TESTING</ExaminationRef>-->
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+            <TreatmentRef>TRT_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1299</IconIndex>
+		<CustomIconBigAssetRef>ASSET_PSYCH_ICON_S7</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_S7_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_PSYCHOMOTORRETARDATION">				
+        <DescriptionLocID>SYM_PSYCHOMOTORRETARDATION_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>	
+		<PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>	
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+		<IconIndex>1607</IconIndex>
+        <CustomIconBigAssetRef>ASSET_PSYCH_ICON_S9</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_S9_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_INCREASEDAPETITE">					
+        <DescriptionLocID>SYM_INCREASEDAPETITE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+		<Treatments>
+            <TreatmentRef>TRT_STOMACHICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1301</IconIndex>
+		<CustomIconBigAssetRef>ASSET_PSYCH_ICON_S6</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_S6_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_SUICIDALIDEATION">             
+        <DescriptionLocID>SYM_SUICIDALIDEATION_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        <!--        
+        <RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_SUICIDEATTEMPT</CollapseSymptomRef>
+        -->        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_MENTAL_HEALTH_EVALUATION</ExaminationRef> 
+        </Examinations>
+        <Treatments>
+             <TreatmentRef>TRT_MOOD_STABILIZERS</TreatmentRef>
+            <TreatmentRef>TRT_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        <ShameLevel>90</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+     <!--   <BleedingLevel>2</BleedingLevel> -->
+        <IconIndex>1607</IconIndex>
+        <CustomIconBigAssetRef>ASSET_PSYCH_ICON_S10</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_S10_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_DECREASEDAPETITE">             
+        <DescriptionLocID>SYM_DECREASEDAPETITE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        <Treatments>
+           <TreatmentRef>TRT_STOMACHICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        <CustomIconBigAssetRef>ASSET_PSYCH_ICON_S2</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_S2_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_IMPULSIVE">             
+        <DescriptionLocID>SYM_IMPULSIVE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_MENTAL_HEALTH_EVALUATION</ExaminationRef>
+        </Examinations>
+         <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>60</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        <CustomIconBigAssetRef>ASSET_PSYCH_ICON_S5</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_S5_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+     <GameDBSymptom ID="SYM_GRANDIOSITY">             
+        <DescriptionLocID>SYM_GRANDIOSITY_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_MENTAL_HEALTH_EVALUATION</ExaminationRef>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        <CustomIconBigAssetRef>ASSET_PSYCH_ICON_S4</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_S4_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+     <GameDBSymptom ID="SYM_DISTRACTIBILITY">             
+        <DescriptionLocID>SYM_DISTRACTIBILITY_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_MENTAL_HEALTH_EVALUATION</ExaminationRef>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <!--<ExaminationRef>EXM_NEUROLOGICAL_TESTING</ExaminationRef>-->
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+             <TreatmentRef>TRT_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        <CustomIconBigAssetRef>ASSET_PSYCH_ICON_S3</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_S3_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+     <GameDBSymptom ID="SYM_AGGRESSION">             
+        <DescriptionLocID>SYM_AGGRESSION_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>High</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_MENTAL_HEALTH_EVALUATION</ExaminationRef>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <!--<ExaminationRef>EXM_NEUROLOGICAL_TESTING</ExaminationRef>-->
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_PSYCHOTHERAPY</TreatmentRef>
+            <TreatmentRef>TRT_MOOD_STABILIZERS</TreatmentRef>
+            <!--<TreatmentRef>TRT_ANTIPSYCHOTICS</TreatmentRef>-->
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        <CustomIconBigAssetRef>ASSET_PSYCH_ICON_S1</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_S1_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_HYPERSOMNIA">
+        <DescriptionLocID>SYM_HYPERSOMNIA_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_METHLPHENIDATE</TreatmentRef>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        <CustomIconBigAssetRef>ASSET_PSYCH_ICON_SM2</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_PSYCH_ICON_SM2_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+	
+</Database>

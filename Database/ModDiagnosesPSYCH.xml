@@ -23,7 +23,7 @@
             </GameDBSymptomRules>			
 			<GameDBSymptomRules>
                 <DayOfFirstOccurence>0</DayOfFirstOccurence>
-                <ProbabilityPercent>20</ProbabilityPercent>
+                <ProbabilityPercent>100</ProbabilityPercent>
                 <GameDBSymptomRef>SYM_PRESSUREDSPEECH</GameDBSymptomRef>
             </GameDBSymptomRules>
 			<GameDBSymptomRules>
@@ -74,7 +74,7 @@
             </GameDBSymptomRules>
 			<GameDBSymptomRules>
                 <DayOfFirstOccurence>0</DayOfFirstOccurence>
-                <ProbabilityPercent>75</ProbabilityPercent>
+                <ProbabilityPercent>100</ProbabilityPercent>
                 <GameDBSymptomRef>SYM_ANHEDONIA</GameDBSymptomRef> 
             </GameDBSymptomRules>
 			<GameDBSymptomRules>
